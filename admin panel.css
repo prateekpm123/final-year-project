@@ -1,0 +1,82 @@
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: rgb(15, 15, 15);
+}
+
+body.home-body {
+    background-color: rgb(228, 230, 238);
+  }
+
+/* ######## Navbar ######### */
+.nav1 {
+  padding: 0px 20px;
+}
+
+
+/* ######### IMAGE SLIDER ######### */
+
+.image-slider {
+    height: 100px;
+    width: 20px;
+    margin: auto;
+}
+
+.w-100 {
+    width: 100px!important;
+}
+
+/* Trending */
+
+.trending {
+    margin-top: 3rem;
+    /* align-items: center; */
+    text-align:left;
+    /* margin: auto; */
+} 
+
+/* ####### CARDS OF COMPLIANTS TRENDING PAGE ######## */
+
+div.trending-cards-complaint {
+    margin: 10px;
+    margin-top: none;
+}
+
+div.complaint-card-body {
+    margin: 10px;
+    margin-top: none;
+}
+
+/* ##### Footer ##### */
+
+.footeds {
+    background-color: rgb(84, 85, 87);
+    border: rgb(80, 123, 160);
+    border-width: 1px;
+    border-style: solid;
+  }
+  
+  .footer-leftside {
+    padding: 15px 15px;
+    background: none;
+  }
+  
+  .footer-leftside p {
+    color: white;
+  }
+  
+  .list-group-item {
+    background: none;
+    color: white;
+  }
+  

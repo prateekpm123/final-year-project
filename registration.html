@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">AU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!-- Add ml-auto to the UL tag class to move the whole nav bar to the right side -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav1">
+                    <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item nav1">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item nav1">
+                    <a class="nav-link" href="directComplaint.html">Quick Complaint</a>
+                </li>
+                <li class="nav-item nav1">
+                    <a class="nav-link" href="chatbot 2.html">Make Complaint</a>
+                </li>
+                <li class="nav-item nav1">
+                    <a class="nav-link" href="grevience.php">Show Complaint</a>
+                </li>
+                <li class="nav-item nav1">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Login
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="login.html">User Login</a>
+                        <a class="dropdown-item" href="login.html">Admin Login</a>
+
+                        <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                    </div>
+                    <!-- <li class="nav-item nav1">
+          <a class="nav-link" href="login.html">Log In</a>
+        </li> -->
+                <li class="nav-item nav1 active">
+                    <a class="nav-link" href="Registration.php">Sign up</a>
+                </li>
+                <!-- Dropdown Menu Item -->
+                <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Admin Space
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Complaints</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+            </ul>
+        </div>
+    </nav>
+</body>
+<div class="row">
+    <div class="col"></div>
+    <div class="col-lg-8 col-md-8">
+        <h2>Registration</h2>
+        <div class="card">
+            <div class="card-body">
+                <form action="insert.php" method="POST">
+                    <div class="input-group mb-3">
+                        <form action="insert.php">
+                            <input type="text" name="username" class="myinput" placeholder="Enter a username"
+                                aria-label="Example text with button addon" aria-describedby="button-addon1" required>
+
+                            <input type="password" name="password" class="myinput" placeholder="Enter a password"
+                                aria-label="Example text with button addon" aria-describedby="button-addon1" required>
+
+                            <input type="password" name="repassword" class="myinput"
+                                placeholder="Re Enter your password" aria-label="Example text with button addon"
+                                aria-describedby="button-addon1" required>
+
+                            <input type="email" name="email" class="myinput" placeholder="Enter your email"
+                                aria-label="Example text with button addon" aria-describedby="button-addon1" required>
+
+                            <div class="input-group-prepend myinput">
+                                <label class="input-group-text myinput" for="inputGroupSelect01">Gender</label>
+                            </div>
+                            <select class="custom-select myinput" id="inputGroupSelect01" name="gender" required>
+                                <option selected>Choose...</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                            
+                            <input type="number" name="phone_number" class="myinput" placeholder="Enter your phone number"
+                                aria-label="Example text with button addon" aria-describedby="button-addon1" required>
+                            <!-- </div> -->
+
+                            <input type="submit" value="Submit" class="myinput btn btn-primary">
+                        </form>
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col"></div>
+</div>
+
+</html>

@@ -1,0 +1,30 @@
+/* Nav bar */
+
+.nav-link .nav-item {
+    padding: auto 30px;
+    margin: 40px !important;
+}
+
+.nav1 {
+    padding: 0px 20px;
+}
+
+/* #### Body #### */
+
+h2 {
+    margin-top: 50px;
+}
+
+.card {
+    margin-top: 3rem;
+    height: auto;
+}
+
+/*  form */
+
+input.myinput {
+    width: 100%;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+}

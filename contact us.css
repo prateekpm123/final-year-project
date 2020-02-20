@@ -1,0 +1,179 @@
+/*W3hubs.com - Download Free Responsive Website Layout Templates designed on HTML5 CSS3,
+Bootstrap which are 100% Mobile friendly. w3Hubs all Layouts are responsive cross 
+browser supported, best quality world class designs.*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+body {
+	background-color:rgb(45, 205, 245);
+	overflow-x:hidden;
+	padding:0;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+h2{
+	padding:25px;
+	color:#000;
+	text-align:center;
+}
+label{
+		
+		padding-left:50px;
+		color:#F80202;
+}
+input,textarea{
+	outline:none;
+	border:none;
+	margin-left:50px;
+
+
+	
+}
+form{
+	
+    
+    margin: auto;
+    padding: 40px 0px;
+    
+    background-color: rgba(0,0,0,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    transition: 1s;
+}
+.form-control{
+	padding-left:30px;
+	border:none;
+	border-bottom:1px solid #000;
+	background:none;
+	margin-top: 40px;
+	border-radius: 0em;
+	width: 80%;
+	outline: none;
+}
+.form-control:active{
+	outline:none;
+	border:none;
+}
+.form-control:focus{
+	background:none;
+	box-shadow:none;
+	border-bottom:1px solid #000;
+	outline:none;
+	color:#000;
+	
+	
+}
+.form-control:hover{
+	border-bottom: 1px solid #873600;
+  outline: none;
+  
+}
+.form-control::placeholder{
+	font-size:15px;
+	text-align:center;
+	color:#fff;
+	font-weight: 400;
+}
+.text{
+	border:1px solid #000;
+	background-color:#fff;
+	color:rgb(238, 73, 73);
+	margin:30px;
+}
+a{
+	color: #fff;
+}
+.btn1{
+	text-align: center;
+	background: #F1C40F;
+	color: #fff;
+	border: 1px solid #B7950B;
+	padding: 10px;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	display: block;
+	margin-left: 80px;
+	margin-top: 30px;
+	width: 70%;
+
+	font-weight: 700;
+	font-size: 22px;
+	transition: 0.6s;
+}
+.btn:hover{
+	color: #fff;
+	background: #7D6608;
+	transition: 0.6s;
+
+}
+iframe{
+	height: 545px;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+
+}
+footer p{
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	font-weight: 700;
+}
+@media(max-width: 900px){
+	.form-control{
+	padding-left: 0;
+	
+}
+
+}
+@media(max-width: 768px){
+	.google-map{
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.form-group{
+		padding: 5px;
+		padding-bottom: 10px;
+	}
+}
+@media (max-width: 750px) {
+
+	.form-control{
+		width: 70%;
+    display: block;
+    margin: 0 auto;
+	}
+
+	}
+	@media(max-width: 470px){
+		.btn1{
+			margin-left: auto;
+		}
+	}
+	@media(max-width: 400px){
+		iframe{
+			height: 400px;
+		}
+		.col-md-6{
+			padding-right: 0;
+		}
+		.row{
+			margin-right: 0; 
+					}
+
+	.form-control::placeholder{
+		font-size: 12px;
+	}
+
+}
+@media(max-width: 340px){
+	.btn1{
+		width: 50%;
+		font-size: 12px;
+	}
+}

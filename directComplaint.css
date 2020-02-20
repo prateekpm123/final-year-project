@@ -1,0 +1,48 @@
+textarea, input {
+    height: 100%;
+    width: 100%;
+     box-sizing: border-box;
+    margin: 50px auto 10px auto;
+    border: 2px solid rgb(183, 190, 190);
+    border-radius: 10px;
+    box-shadow: 2px -1px 13px -8px rgba(0, 0, 0, 0.75);
+    line-height: 1.3rem;
+    padding: 20px;
+   display: block;
+    
+}
+
+.nav1 {
+    padding: 0px 20px;
+}
+
+.btncol {
+    margin-top: 30px;
+}
+
+button ::after {
+    /* background-color: aqua!important; */
+}
+
+.btn {
+    display: inline-block;
+}
+
+h1, h3 ,.btn , input{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button.btn3 {
+    display: block;
+    margin: 20px auto;
+    padding:5px 30px;
+    font-weight: 500;
+    
+    
+}
+
+div.row3 {
+    height: 60px;
+}
