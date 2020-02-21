@@ -1,7 +1,7 @@
 <?php
 
 $username = $_POST['username'];
-$password = $_POST['password'];
+$passwords = $_POST['password'];
 $repassword = $_POST['repassword'];
 $email = $_POST['email'];
 $gender = $_POST['gender'];
@@ -36,18 +36,28 @@ if ( !empty($username) || !empty($password) || !empty($repassword) || !empty($em
         $stmt->store_result();
         $rnum = $stmt->num_rows;
 
-        if($rnum == 0)
+
+        if( $passwords === $repassword)
         {
-            $stmt->close();
-            $stmt = $conn->prepare($INSERT);
-            $stmt->bind_param("ssssii", $username, $password, $repassword, $email, $gender, $phone_number);
-            $stmt->execute();
-            echo "New record inserted sucessfully";
+            if($rnum == 0)
+            {
+                $stmt->close();
+                $stmt = $conn->prepare($INSERT);
+                $stmt->bind_param("sssssi", $username, $passwords, $repassword, $email, $gender, $phone_number);
+                $stmt->execute();
+                echo "New record inserted sucessfully";
+            }
+            else 
+            {
+                echo "Someone is already register using this email";
+            }
         }
         else 
         {
-            echo "Someone  is already register using this email";
+            // die("enter same passwords");
+            echo "Enter same passowords";
         }
+        
         $stmt->close();
         $conn->close();
     }
