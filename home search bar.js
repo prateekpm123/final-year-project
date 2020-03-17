@@ -10,7 +10,7 @@ function filterNames() {
     let filterValue = document.getElementById('filterInput').value.toUpperCase();
 
     // Get names ul
-    let ul = document.getElementById('names');
+    let ul = document.getElementById('names'); 
     // Get lis from ul
     let li = ul.querySelectorAll('li.collection-item');
     let header = ul.querySelectorAll('li.collection-header');

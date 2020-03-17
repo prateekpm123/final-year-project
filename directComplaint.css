@@ -46,3 +46,7 @@ button.btn3 {
 div.row3 {
     height: 60px;
 }
+
+div#panels {
+    text-align: left;
+}

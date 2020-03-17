@@ -11,8 +11,17 @@
 
 /* #### Body #### */
 
+body {
+    overflow: hidden;
+}
+
+/* .form-body {
+    margin-top: 3rem;
+} */
+
 h2 {
-    margin-top: 50px;
+    margin:auto;
+    margin-top: 10rem;
 }
 
 .card {
