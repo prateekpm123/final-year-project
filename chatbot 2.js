@@ -60,7 +60,7 @@ function nextQuestion(count) {
 
 // Step 1 after clicking the button 
 function buttonClickCounter() {
-
+    alert("in button click counter");
     count++;
     nextQuestion(count);
 
